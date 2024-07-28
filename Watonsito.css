@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15+Charted&display=swap');
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif
+    
+}
+
+.head{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #cac3e5;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo a{
+    text-decoration:none;
+    color: #fff;
+    text-transform:uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #5f476f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(watonsito2.jpeg) no-repeat center;
+    background-size:cover;
+
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: #270c02;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    background: #78bbed;
+    align-items: center;
+    box-shadow: #4a138a;
+}
+
+.btn:hover{
+    background: #7877df;
+}
+
+.btn-home{
+    display:flex;
+}
+
+.btn-home a{
+    margin: 0 10px;
+}
+
+.content{
+    height:50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    padding: 50px;
+    background: url(watonsito2.jpeg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.box-container{
+    display: flex;
+    justify-content:  center;
+    flex-wrap: wrap;
+    text-align: center;
+
+} 
+
+.box-container .box {
+    height: 8rem;
+    width:14rem;
+    background-color: #fee9b2;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 1rem;
+    box-shadow: 0 .3rem 5rem #b48370;
+
+    
+}
+
+
+.box-container .box h3{
+    font-size:size 20px;
+    color: #280550;
+}
+
+.box-container .box img{
+    width: 50%;
+}
+
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #9ff6cc;
+}
+
+.contact{
+    background: url(watonsito2.jpeg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.consul {
+    background:#fbccdc;
+}
+
+footer{
+    background: #b48370;
+}
+
+footer a{
+    color:#5f476f;
+    text-decoration: none;
+}
